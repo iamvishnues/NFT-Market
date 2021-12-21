@@ -1,0 +1,43 @@
+.collectionCard {
+  color: white;
+  background-color: #1a1c1e;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  height: 430px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.collectionCard > img {
+  width: 100%;
+}
+.ethLogo {
+  height: 23px;
+  width: 15px;
+}
+.price {
+  font-weight: 600;
+  margin-left: 5px;
+}
+.priceContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-left: 5px;
+  align-items: center;
+  object-fit: contain;
+}
+.details {
+  padding: 20px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 5px;
+}
+.id {
+  font-size: 20px;
+  color: #a1a5b0;
+  font-weight: 900;
+  margin-left: 5px;
+}

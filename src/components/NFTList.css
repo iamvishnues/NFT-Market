@@ -1,0 +1,9 @@
+.nftList {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.nftList::-webkit-scrollbar {
+  display: none;
+}
