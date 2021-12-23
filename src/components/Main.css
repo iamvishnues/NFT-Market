@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+.main {
+  max-height: 50vh;
+}
+.mainContent {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.nftHighlight {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.punkContainer {
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+}
+
+.nftDetails {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  flex: 0.75;
+  color: white;
+  margin-left: 20px;
+}
+
+.selectedNft {
+  object-fit: contain;
+  max-width: min(30vw, 40vh);
+  max-height: 30vw;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.owner {
+  color: white;
+  margin-left: 30px;
+}
+.ownerImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.itemNumber {
+  color: gray;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.nftDetailContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
